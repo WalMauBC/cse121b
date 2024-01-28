@@ -8,20 +8,22 @@
 
 const fullName = 'Waldo Balvin';
 const currentYear = new Date().getFullYear();
-const profilePicture = 'images/foto_perfil.jpg';
-const altProfilePicture = 'images/foto_perfil.jpg'; // 
+const profilePicture = 'images/photo_perfil.png';
+const altProfilePicture = 'images/photo_perfil.png'; // 
 
 /* Step 3 - Element Variables */
 
 const nameElement = document.getElementById('name');
 const foodElement = document.getElementById('food');
 const yearElement = document.querySelector('#year');
-const imageElement = document.querySelector('img[src="images/foto_perfil.jpg"]'); 
+const imageElement = document.querySelector('img[src="images/photo_perfil.png"]'); 
 
 /* Step 4 - Adding Content */
 
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
 yearElement.textContent = '${currentYear}';
+
+
 
 
 
@@ -34,6 +36,7 @@ foodElement.innerHTML = favFoods.join('<br>');
 
 const newFavoriteFood = 'Causa';
 favFoods.push(newFavoriteFood);
+
 
 foodElement.innerHTML += `<br>${favFoods.join('<br>')}`;
 
