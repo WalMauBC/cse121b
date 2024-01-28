@@ -9,14 +9,14 @@
 const fullName = 'Waldo Balvin';
 const currentYear = new Date().getFullYear();
 const profilePicture = 'images/foto_perfil.jpg';
-const altProfilePicture = 'images/foto_perfil.jpg'; // Replace 'yourprofileimagename.png' with the actual name of your image file
+const altProfilePicture = 'images/foto_perfil.jpg'; // 
 
 /* Step 3 - Element Variables */
 
 const nameElement = document.getElementById('name');
 const foodElement = document.getElementById('food');
 const yearElement = document.querySelector('#year');
-const imageElement = document.querySelector('img[src="images/yourprofileimagename.png"]'); // Replace 'yourprofileimagename.png' with the actual name of your image file
+const imageElement = document.querySelector('img[src="images/foto_perfil.jpg"]'); 
 
 /* Step 4 - Adding Content */
 
